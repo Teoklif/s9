@@ -6,21 +6,21 @@ int SecondNumber = Convert.ToInt32(Console.ReadLine());
 int NumbersSum(int a, int b)
 {
     int result = 0;
-    if ( a < b)
+    if (a < b)
     {
-    for (int i = a; i<=b; i++)
-    {
-        result += i;
-    }
-    return result;
+        for (int i = a; i <= b; i++)
+        {
+            result += i;
+        }
+        return result;
     }
     else
     {
-        for (int i = b; i<=a; i++)
-    {
-        result += i;
-    }
-    return result;
+        for (int i = b; i <= a; i++)
+        {
+            result += i;
+        }
+        return result;
     }
 
 }
