@@ -4,7 +4,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 string NumberRec(int a, int b)
 {
-    if (b<=a) return $"{a} " + NumberRec(a-1, b);
+    if (b <= a) return $"{a} " + NumberRec(a - 1, b);
     else return String.Empty;
 }
 
